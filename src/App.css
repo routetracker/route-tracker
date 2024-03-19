@@ -139,7 +139,7 @@ button {
 
 .route-box{
   width: 0rem;
-  height: 44vh;
+  height: 36vh;
   position: absolute;
   top: 9vh;
   left: 0; 
@@ -220,14 +220,14 @@ button {
 
 .route-tracked, .route-drawn{
   width: 96%;
-  height: 18vh;
+  height: 14vh;
   border: 1px  solid var(--primary-border);
   border-radius: 10px;
 }
 
 .left-btn-ip-tag{
   position: absolute;
-  top: 54vh;
+  top: 48vh;
   left: 0rem;
   z-index: 10000;
   width: 10.5rem;
@@ -262,12 +262,12 @@ button {
 
 .ip-box{
   position: absolute;
-  top: 54vh;
+  top: 48vh;
   left: 0rem;
   z-index: 10001;
   width: 0vw;
-  height: 42vh;
-  max-height:42vh;
+  height: 44vh;
+  max-height:44vh;
   background-color:var(--primary-back);
   /* background-image:var(--background-image-ttr); */
   border-radius: 0px 10px 10px 0px;
@@ -346,8 +346,8 @@ display: flex;
   right: 0rem;
   z-index: 10001;
   width: 0vw;
-  height: 90vh;
-  max-height: 90vh;
+  height: 86vh;
+  max-height: 86vh;
   background-color:var(--primary-back);
   /* background-image: var(--background-image-tll); */
   border-radius: 10px 0px 0px 10px;
@@ -668,7 +668,7 @@ display: flex;
   }
 
   .route-tracked, .route-drawn{
-    height: 17vh
+    height: 13vh
   }
 
   .open-panel{

@@ -33,7 +33,6 @@ const UserMarker = () => {
       const iconUrl = selectedIcon || defaultIcon.options.iconUrl;
     
       if (selectedIcon) {
-        console.log('selected');
 
         return new L.Icon({
           iconUrl: selectedIcon,
@@ -41,7 +40,6 @@ const UserMarker = () => {
           iconAnchor: [12, 41],
         });
       } else if (defaultIcon.options.iconUrl === iconUrl) {
-        console.log('default');
 
         return new L.Icon({
           iconUrl: iconUrl,
@@ -54,7 +52,6 @@ const UserMarker = () => {
     };
   
     const handleIconChange = (selectedIcon) => {
-      console.log(selectedIcon);
       setSelectedIcon(selectedIcon);
     }; 
   
