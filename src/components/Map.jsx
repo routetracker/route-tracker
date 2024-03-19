@@ -9,7 +9,7 @@ import RouteTracker from './markers/RouteTracker';
 import IPAddress from "./ipSearch/ipAddress";
 import UserMarker from "./UserMarker";
 
-/*test recording, save routes*/
+/*test recording, save routes, adjust mobile (clear all markers not appearing) and buttons are dark on mobile*/
 
 L.Icon.Default.mergeOptions({
   iconAnchor: [12, 41],
