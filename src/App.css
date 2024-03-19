@@ -603,6 +603,10 @@ display: flex;
   h2{
     font-size: 0.9rem;
   }
+
+  button{
+    background-color: var(--primary-font);
+  }
   
   .show-route-panel{
     width: 45vw;
