@@ -110,8 +110,8 @@ button {
   left: 46%;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  background-color: var(--primary-font);
-  color: var(--primary-back);
+  background-color: var(--primary-back);
+  color: var(--primary-font);
 }
 
 #map-btn{
@@ -121,8 +121,8 @@ button {
   z-index: 10001;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  background-color: var(--primary-font);
-  color: var(--primary-back);
+  background-color: var(--primary-back);
+  color: var(--primary-font);
 }
 
 .icons{
@@ -437,8 +437,8 @@ display: flex;
 .marker-list{
   overflow-y: auto;
   overflow-x: hidden;
-  height: 75vh;
-  max-height: 75vh;
+  height: 71vh;
+  max-height: 71vh;
   border-left:1px solid var(--primary-border);
   border-bottom:1px solid var(--primary-border);
 }
@@ -536,8 +536,8 @@ display: flex;
 }
 
   .marker-list{
-    height: 73vh;
-    max-height: 73vh;  
+    height: 69vh;
+    max-height: 69vh;  
   }
 
   h2{
