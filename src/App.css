@@ -297,6 +297,8 @@ button {
   margin: 0.7rem;
   align-items: center;
   justify-content: center;
+  background-color: var(--primary-font);
+  color: var(--primary-back);  
 }
 
 .ip-search-bar{
@@ -373,6 +375,8 @@ display: flex;
   z-index: 10001;
   align-items: center;
   justify-content: center;
+  background-color: var(--primary-font);
+  /* color: var(--primary-back);   */
 }
 
 #marker-count{
@@ -400,6 +404,8 @@ display: flex;
   margin: 0.7rem;
   align-items: center;
   justify-content: center;
+  background-color: var(--primary-font);
+  color: var(--primary-back);  
 }
 
 #panel-marker{
